@@ -55,4 +55,11 @@ function StringUtil:zfill(str, width)
     return str
 end
 
+function StringUtil:isWhiteSpace(str)
+	if str == " " or str == "\t" or str == "\r" or str == "\n" then
+		return true
+	end
+	return false
+end
+
 return StringUtil
