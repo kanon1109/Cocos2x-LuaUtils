@@ -1,0 +1,8 @@
+simulator
+frameworks
+*.project
+Cocos2x-LuaUtils.ccs
+Cocos2x-LuaUtils.cfg
+Cocos2x-LuaUtils.udf
+.project.sublime-workspace
+config.json
